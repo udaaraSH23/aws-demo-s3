@@ -11,7 +11,7 @@ const port = 3000;
 // ---------- CONFIGURATION ----------
 
 // AWS Regions (keep consistent between S3 + DynamoDB)
-const REGION = 'ap-south-1'; // change if needed
+const REGION = 'us-east-1'; // change if needed
 const BUCKET_NAME = 'udara-bucket-7d81c279'; // replace with your S3 bucket name
 
 // Initialize AWS SDK clients
